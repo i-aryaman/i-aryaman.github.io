@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+    <script>
+        function myFunction() {
+            alert = getelement.id
+        }
+    </script>
+</head>
+
+<body>
+    <form>
+        <table style="width:100%">
+            <tr>
+                <th><label for="text">Username:</label>
+                    <input type="textbox" name="text" id="name">
+                </th>
+                <th><label for="password">Password:</label>
+                    <input type="password" name="password" id="password">
+                </th>
+            </tr>
+            <tr>
+                <td><input type="radio" name="language" id="lang1">
+                    <label for="HTML">HTML</label><br>
+                    <input type="radio" name="language" id="lang2">
+                    <label for="CSS">CSS</label><br>
+                    <input type="radio" name="language" id="lang3">
+                    <label for="Javascript">Javascript</label>
+                </td>
+                <td><input type="radio" name="vehicle" id="vehicle1">
+                    <label for="bike">I have a bike</label><br>
+                    <input type="radio" name="vehicle" id="vehicle2">
+                    <label for="CSS">I have a car</label><br>
+                    <input type="radio" name="vehicle" id="vehicle3">
+                    <label for="Javascript">I have a boat</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="text">Select your Favourite Color:</label>
+                    <input type="color" name="color" id="color">
+                </td>
+                <td><label for="birthday">Birthday:</label>
+                    <input type="datetime" name="date" id="birth-date">
+                </td>
+
+            </tr>
+            <tr>
+                <td><label for="text">Email:</label>
+                    <input type="email" name="email" id="email">
+                </td>
+                <td><label for="birthday">Birthday:</label>
+                    <input type="date" name="date" id="birth-date">
+                </td>
+
+            </tr>
+            <tr>
+                <td><label for="text">Select a month:</label>
+                    <input type="datetime-local" name="date" id="datetime">
+                </td>
+                <td><label for="time">Select a time:</label>
+                    <input type="time" name="time" id="time">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="text">Add your Homepage:</label>
+                    <input type="textbox" name="text" id="Homepage">
+                </td>
+                <td><label for="time">Quantity(between 1 and 5):</label>
+                    <select name="quantiy" id="quatity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="myFunction()">Submit</button></td>
+            </tr>
+            <tr>
+                <td colspan=" 2"><button>Click Me!</button>
+                    <input type="reset" value="Reset">
+                    <img src="https://www.c-metric.com/wp-content/uploads/2019/08/Microsoft-SharePoint-Development.jpg"
+                        alt="image" height="170" width="250">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
